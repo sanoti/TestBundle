@@ -1,0 +1,31 @@
+{
+  "name": "profsoft/test-bundle",
+
+  "type": "symfony-bundle",
+  "description": "test bundle before door",
+  "keywords": ["php", "itforfree", "mvc", "view", "door"],
+  "license": "proprietary",
+
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "symfony/flex": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Profsoft\\EmployeeBundle\\": "src/"
+    }
+  },
+  "scripts": {
+    "test" : "./vendor/bin/simple-phpunit"
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false,
+      "require": "^6.0.*"
+    }
+  }
+}
