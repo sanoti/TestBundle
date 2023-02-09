@@ -1,6 +1,6 @@
 {
   "name": "profsoft/test-bundle",
-
+  "version": "0.1.0",
   "type": "symfony-bundle",
   "description": "test bundle before door",
   "keywords": ["php", "itforfree", "mvc", "view", "door"],
